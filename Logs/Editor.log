@@ -1,0 +1,425 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 9168)
+VBCSCompiler prewarm took 25.22 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20057673" at "2026-09-30T14:19:42.6401563Z"
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32489 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-30T14:19:42Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-projectpath
+C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-20057673
+-hubSessionId
+749af87e-0086-4030-9da9-16c921d5fb9f
+-accessToken
+uvWfeYOAhSmilRZJVEU_lej4ZfPWqab2dcghoZmhveM005f
+Successfully changed project path to: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze
+C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [20904]  Target information:
+
+Player connection [20904]  * "[IP] 10.43.22.147 [Port] 55504 [Flags] 2 [Guid] 4094131057 [EditorId] 4094131057 [Version] 1048832 [Id] WindowsEditor(7,SNE-A807-23-08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20904] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20904] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-31416" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-20057673"
+[Licensing::IpcConnector] LicenseClient-20057673 channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-20057673-6000.6.1 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 28804)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-20057673-6000.6.1, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20057673-6000.6.1" at "2026-09-30T14:19:49.5905811Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28804, path: "C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              c28efa6adf78410bb176b1820557b26f
+  Correlation Id:          e27225b7e54168d369f701e933e6bd9b
+  External correlation Id: 7469076917532073873
+  Machine Id:              9kXf0tvy134S2vpBqQPhkqSRB0o=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-20057673-6000.6.1" (connect: 1.94s, validation: 0.29s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20057673-6000.6.1-notifications" at "2026-09-30T14:19:49.8971823Z"
+[Licensing::Module] Connected to LicensingClient (PId: 28804, launch time: 0.02, total connection time: 2.24s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token uvWfeYOAhS...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774125510858-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 7.35s
+[Licensing::Module] Licensing is initialized (took 6.27s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: b3f288fdee2302338ab49ed4f6add470
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060
+[D3D12 Device Filter] Driver Version: 32.0.15.9595
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 12115 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:          NVIDIA
+    VRAM:            12115 MB
+    App VRAM Budget: 11347 MB
+    Driver:          32.0.15.9595
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.111227 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.408 seconds
+Domain Reload Profiling: 2923ms
+	BeginReloadAssembly (341ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (292ms)
+	LoadAllAssembliesAndSetupDomain (822ms)
+		LoadAssemblies (336ms)
+		TypeCache.Refresh (696ms)
+			TypeCache.ScanAssembly (630ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1410ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (697ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Done resolving packages in 0.48 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 42 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.38 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze
+ExitCode: 4 Duration: 30s
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[BUSY       6s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      16s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      26s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (30.19 seconds), 1 items updated, 192 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze
+ExitCode: 0 Duration: 0s886ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze
+ExitCode: 0 Duration: 0s737ms
+Finished compiling graph: 203 nodes, 1084 flattened edges (1056 ToBuild, 8 ToUse), maximum node priority 41
+[170/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2
+[171/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2
+[172/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt
+[173/200    0s] WriteResponseFile Library/Bee/artifacts/rsp/3071285868016441895.rsp
+[174/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2
+[175/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt
+[176/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt
+[177/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt
+[178/200    0s] WriteResponseFile Library/Bee/artifacts/rsp/2655319114021734818.rsp
+[179/200    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2
+[193/200    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[194/200    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/UnityEngine.TestRunner.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll, with 149 defines and 287 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[195/200    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/UnityEditor.TestRunner.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll, with 147 defines and 297 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+*** Tundra build success (0.68 seconds), 13 items updated, 200 evaluated
+AssetDatabase: script compilation time: 34.222823s
+Total cache size 80568528
+Total cache size after purge 80568528, took 00:00:00.1335593
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (375ms)
+		DisableScriptedObjects (58ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (429ms)
+		TypeCache.Refresh (14ms)
+			TypeCache.ScanAssembly (9ms)
+		AnalyzeDomain (7ms)
+			BuildScriptInfoCaches (6ms)
+	FinalizeReload (604ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Starting new worker id: 0 with log in C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=50ceb9b2bf0033f4584fc81d77f78530): Total: 37.289 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1045 ms
+		Asset DB Callback time: managed=446 ms, native=558 ms
+		Scripting: domain reloads=1, domain reload time=996 ms, compile time=34227 ms, other=15 ms
+		Project Asset Count: scripts=169, non-scripts=61
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 570.407ms
+	ApplyChangesToAssetFolders: 0.875ms
+	Scan: 81.744ms
+	Collect global state as custom dependencies: 19.845ms
+	CategorizeScriptCompilationAssets: 38.933ms
+	ProcessAssetsWithTransientArtifactChanges: 7.202ms
+	CategorizeAssets: 1.559ms
+	CompileScripts: 34226.746ms
+	ImportOutOfDateAssets: 619.364ms (605.176ms without children)
+		UnloadImportedAssets: 0.080ms
+		ImportSchedulerStart: 14.057ms
+	PostProcessAllAssets: 446.558ms
+		MonoPostProcessAllAssets: 446.508ms
+			SyncVS.PostprocessSyncProject 424.954ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.676ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.969ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.773ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.431ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.232ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.211ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.119ms
+	UnloadStreamsBegin: 1.840ms
+	Untracked: 1247.339ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 7.478ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Monster-Mystery-Maze
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 497 unused Assets / (0.6 MB). Loaded Objects now: 1235.
+Memory consumption went from 242.7 MB to 242.2 MB.
+Total: 7.662600 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.051000 ms MarkObjects: 6.679100 ms  DeleteObjects: 0.380800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/20057673/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 52.470 seconds
+	Project init time: 				50.679 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		6.505 seconds
+		Asset Database init time: 		1.307 seconds
+		Global illumination init time: 	0.044 seconds
+		Assemblies load time: 			3.051 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	37.289 seconds
+	Scene opening time: 			1.425 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790778035048,"processId":31416,"projectLoad":52.4696057,"projectInit":50.6786481,"templateInit":0.0,"packageManagerInit":6.5046648,"assetDatabaseInit":1.3068295,"globalIlluminationInit":0.0440553,"assembliesLoad":3.0511019,"unityExtensionsInit":0.0030729,"assetDatabaseRefresh":37.2892083,"sceneOpening":1.4252298}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790778035049,"processId":31416,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=9d95350f7a6e23942a7ec3bd6be58bd2): Total: 0.092 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[MODES] ModeService[default].LoadModes
+Worker ready: AssetImportWorkerHW0 0
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/20057673/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.023s, timestamps: [52.597 - 52.620]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "uvWfeYOA"... (expires: 2026-09-30T14:39:59Z)
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=659d97dd383dced4bbf8e0b0f14da1a2): Total: 0.036 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "bBhDDJwy"... (expires: 2026-09-30T16:39:14Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Cannot open scene at path Monster Mystery Maze/Assets/Scenes/SampleScene.unity. Maybe the scene hasn't been imported. This can be done with an AssetDatabase.Refresh() call.
+Asset Pipeline Refresh (id=9138e62b93a4710488866d5b98a2e57e): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=8b1009ad24809e142a358895739b06c9): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Starting new worker id: 1 with log in C:/Users/20057673/Desktop/Local Repository/Monster-Mystery-Maze/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter -> (ImportResultId: 'e7deeb2551deae0121fd5a6b039aae71') in 0.0143715 seconds
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=adc399ca0f76f6b4c89a74b98ea4b50e): Total: 0.015 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 5340; Successful remaps: 1174
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\20057673\Desktop\Local Repository\Monster-Mystery-Maze\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/20057673/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-20057673-6000.6.1-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-20057673-6000.6.1 channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000052E0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000052E0, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5040
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790779593763,"processId":31416,"allocatedMemory":11917585,"memoryLabels":[{"Default":175770},{"Permanent":15516},{"NewDelete":72945},{"Thread":4205600},{"Manager":34240},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":849277},{"Material":68},{"GfxDevice":62712},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":144520},{"Input":42840},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"ScriptingNativeRuntime":1270168},{"BaseObject":49584},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":7385},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":835469},{"StaticString":3808},{"Utility":2675005},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":5550},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":47145},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267693},{"EditorUtility":147235},{"VersionControl":8},{"Undo":931},{"AssetDatabase":413299},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36914},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}

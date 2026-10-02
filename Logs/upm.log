@@ -1,0 +1,45 @@
+[2026-09-30T14:19:43.659Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.1f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 31416 --ipc-path Unity-Upm-31416 -l 2 --log-file 'C:\\Users\\20057673\\Desktop\\Local Repository\\Monster-Mystery-Maze/Logs/upm.log'
+[2026-09-30T14:19:43.712Z][INFO] IPC server started (IPC path=Unity-Upm-31416).
+[2026-09-30T14:19:43.713Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-31416.
+[2026-09-30T14:19:54.877Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:19:55.158Z][INFO] project:list-packages --> 200 (281 ms)
+[2026-09-30T14:19:55.561Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T14:19:55.573Z][INFO] config:project:get-registries --> 200 (12 ms)
+[2026-09-30T14:19:55.575Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:19:55.695Z][INFO] project:list-packages --> 200 (120 ms)
+[2026-09-30T14:19:55.705Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-30T14:19:56.150Z][INFO] project:resolve-packages --> 200 (444 ms)
+[2026-09-30T14:20:32.230Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:20:32.287Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:20:32.376Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T14:20:32.409Z][INFO] config:project:get-registries --> 200 (33 ms)
+[2026-09-30T14:20:32.457Z][INFO] project:list-packages --> 200 (227 ms)
+[2026-09-30T14:20:32.473Z][INFO] project:list-packages --> 200 (186 ms)
+[2026-09-30T14:20:34.989Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:20:35.129Z][INFO] project:list-packages --> 200 (140 ms)
+[2026-09-30T14:20:35.186Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:20:35.340Z][INFO] project:list-packages --> 200 (154 ms)
+[2026-09-30T14:20:37.249Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:20:37.630Z][INFO] project:list-packages --> 200 (381 ms)
+[2026-09-30T14:40:01.350Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:40:01.749Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:40:01.897Z][INFO] project:list-packages --> 200 (547 ms)
+[2026-09-30T14:40:01.907Z][INFO] project:list-packages --> 200 (158 ms)
+[2026-09-30T14:40:05.073Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:40:05.201Z][INFO] project:list-packages --> 200 (128 ms)
+[2026-09-30T14:40:05.581Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T14:40:05.696Z][INFO] project:list-packages --> 200 (115 ms)
